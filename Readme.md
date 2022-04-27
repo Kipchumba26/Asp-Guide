@@ -5,6 +5,11 @@
 
 - [Introduction](#introduction)
 - [Installation](#install)
+- [Create Project](#Create Project)
+- [Routing](#Routing)
+- [Add a Route/Action](#Add a Route/Action)
+- [Add a View](#Add a View)
+- [Add a Model](#Add a Model)
 
 
 
@@ -28,3 +33,22 @@ Since most applicaations require a database, several organizations  choose MsSQL
 This is partly because it's easier to work with it when using Microsofts technologies. 
 Install the database itself 'MsSQL' and then the ''MsSQL Studio' database explorer from where developers can run queries on tables, import or export data, see inserted data among other things.
 
+
+
+
+## Create Project
+To create a project, open Visual Studio, 
+1. select Create a new project.
+2. in the Create a new project dialog, select ASP.NET Core Web App (Model-View-Controller) > Next.
+3. in the Configure your new project dialog, enter project name > Next
+4. in the Additional information dialog, select .NET 6.0 (Long-term support) > Create
+
+
+## Routing
+Routing is the mapping of urls to application handlers and views that resolve what should be done when a user visits a url.
+In ASP.NET, routing is based in controllers and actions. Controllers live on the controllers folder. Actions are methods in controllers that return views, json, html, xml or any other accepted formats.
+Actions must have a corresponsing view in ASP.NET MVC Razor Pages. If you have a controller named TestController and inside it a function called Check, the app will have a route domain/Test/Check. 'domain'
+in this case can be http://localhost:$PORT or https://localhost:$PORT or a custom domain if the application has been deployed.
+
+In this current application, we have a controller called HomeController and inside it a function called About. This means there is a route domain/Home/About.
+This is how ASP.NET MVC does its routing.
