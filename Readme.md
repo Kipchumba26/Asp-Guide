@@ -5,6 +5,11 @@
 
 - [Introduction](#introduction)
 - [Installation](#install)
+- [Create Project](#Create Project)
+- [Routing](#Routing)
+- [Add a Route/Action](#Add a Route/Action)
+- [Add a View](#Add a View)
+- [Add a Model](#Add a Model)
 
 
 
@@ -27,4 +32,14 @@ installer that can be used later on to install any required dependecies when nee
 Since most applicaations require a database, several organizations  choose MsSQL, Microsofts SQL Database as their database.
 This is partly because it's easier to work with it when using Microsofts technologies. 
 Install the database itself 'MsSQL' and then the ''MsSQL Studio' database explorer from where developers can run queries on tables, import or export data, see inserted data among other things.
+
+
+
+
+## Create Project
+To create a project, open Visual Studio, 
+1. select Create a new project.
+2. in the Create a new project dialog, select ASP.NET Core Web App (Model-View-Controller) > Next.
+3. in the Configure your new project dialog, enter project name > Next
+4. in the Additional information dialog, select .NET 6.0 (Long-term support) > Create
 
