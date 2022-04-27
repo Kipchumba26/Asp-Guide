@@ -43,6 +43,7 @@ To create a project, open Visual Studio,
 3. in the Configure your new project dialog, enter project name > Next
 4. in the Additional information dialog, select .NET 6.0 (Long-term support) > Create
 
+<<<<<<< HEAD
 
 ## Routing
 Routing is the mapping of urls to application handlers and views that resolve what should be done when a user visits a url.
@@ -52,3 +53,5 @@ in this case can be http://localhost:$PORT or https://localhost:$PORT or a custo
 
 In this current application, we have a controller called HomeController and inside it a function called About. This means there is a route domain/Home/About.
 This is how ASP.NET MVC does its routing.
+=======
+>>>>>>> 1fc6df0f8dd24328a1e47a393eaf5bb3c13752d2
