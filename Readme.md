@@ -5,11 +5,11 @@
 
 - [Introduction](#introduction)
 - [Installation](#install)
-- [Create Project](#Create Project)
+- [Create](#Create Project)
 - [Routing](#Routing)
-- [Add a Route/Action](#Add Route/Action)
-- [Add a View](#Add View)
-- [Add a Model](#Add Model)
+- [Routes/Actions](#Add Route/Action)
+- [View](#Add View)
+- [Model](#Add Model)
 
 
 
@@ -52,3 +52,6 @@ in this case can be http://localhost:$PORT or https://localhost:$PORT or a custo
 
 In this current application, we have a controller called HomeController and inside it a function called About. This means there is a route domain/Home/About.
 This is how ASP.NET MVC does its routing.
+
+
+## Routes/Actions
