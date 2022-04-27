@@ -5,11 +5,11 @@
 
 - [Introduction](#introduction)
 - [Installation](#install)
-- [CreateProject](#Create Project)
+- [Create Project](#Create Project)
 - [Routing](#Routing)
-- [AddaRoute/Action](#Add a Route/Action)
-- [AddaView](#Add a View)
-- [AddaModel](#Add a Model)
+- [Add a Route/Action](#Add Route/Action)
+- [Add a View](#Add View)
+- [Add a Model](#Add Model)
 
 
 
