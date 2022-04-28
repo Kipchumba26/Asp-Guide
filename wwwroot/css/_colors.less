@@ -1,0 +1,23 @@
+
+@primary-color: brown;
+@secondary-color: rgb(222, 167, 16);
+@tertiary-color: purple;
+
+@black: #1e1e1e;
+
+
+@gradient-bg: linear-gradient(
+    30deg,
+    @primary-color, @tertiary-color
+);
+
+
+
+.black-bg {
+    background-color: @black;
+    color: white;
+}
+
+.gradiented {
+    background-image: @gradient-bg;
+}

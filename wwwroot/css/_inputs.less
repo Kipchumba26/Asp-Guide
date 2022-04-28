@@ -1,0 +1,128 @@
+@import './_variables.css';
+@import './_colors.css';
+
+
+
+
+// .form-input--multiselectable--item {
+//     padding: 1.2rem 3.6rem;
+//     margin: .5rem;
+//     min-width: 80px;
+//     max-width: 240px;
+//     min-height: 48px;
+//     border-radius: @button-border-radius; 
+
+//     border: 1px solid @primary-color;
+//     color: @primary-color;
+// }
+
+// // when selected
+// .form-input--multiselectable--item-selected {
+//     border: none;
+//     background-color: @primary-color;
+//     color: @white-color;
+// }
+
+
+
+
+
+
+
+
+
+
+
+// text input
+
+.basic-input {
+    width: 100%;
+    max-width: 560px;
+
+    margin-bottom: 2rem;
+    padding: 1rem;
+
+    border-radius: 2px;
+    border: none;
+    border-bottom: 1px solid #323232;
+
+    background-color: rgba(235, 253, 253, .5);
+}
+
+.input-field-floating::placeholder {
+    color: transparent;
+}
+
+.input-form-floating {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    margin-bottom: 1.5rem;
+}
+
+
+.input-field-floating {
+    height: 72px;
+    width: 100%;
+    padding: .2rem 1rem;
+    font-size: 1rem;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 8px;
+    z-index: 2;
+    background-color: #ffffff;
+}
+
+.input-label-floating {
+    position: absolute;
+    bottom: 1rem;
+    left: 1.5rem;
+    height: 100%;
+    // width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 10;
+    color: black;
+}
+
+.label-name-floating {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform: translateY(calc(72px - 20px));
+    transition: transform 200ms ease-in-out;
+}
+
+
+.input-label-floating::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    // border: 1px solid #f73378;
+}
+
+.input-field-floating:focus,
+.input-field-floating:not(:placeholder-shown) {
+    // border-bottom: unset;
+}
+
+.input-field-floating:focus ~ .input-label-floating::after,
+.input-field-floating:not(:placeholder-shown) ~ .input-label-floating::after {
+    width: 100%;
+    transition: 200ms;
+}
+
+.input-field-floating:focus ~ .input-label-floating .label-name-floating,
+.input-field-floating:not(:placeholder-shown) ~ .input-label-floating .label-name-floating {
+    color: #f73378;
+    font-size: 0.75rem;
+    transform: translateY(1.2rem);
+}

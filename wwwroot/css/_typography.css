@@ -1,0 +1,26 @@
+.black-bg {
+  background-color: #1e1e1e;
+  color: white;
+}
+.gradiented {
+  background-image: linear-gradient(30deg, brown, purple);
+}
+.semi-bold {
+  font-weight: 500;
+}
+.bold {
+  font-weight: 600;
+}
+.extra-bold {
+  font-weight: 600;
+}
+.title-1 {
+  font-size: 4rem;
+  font-weight: 800;
+}
+.p-md {
+  font-size: 1rem;
+}
+.p-sm {
+  font-size: 0.8rem;
+}

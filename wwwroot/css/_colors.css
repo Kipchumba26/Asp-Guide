@@ -1,0 +1,7 @@
+.black-bg {
+  background-color: #1e1e1e;
+  color: white;
+}
+.gradiented {
+  background-image: linear-gradient(30deg, brown, purple);
+}

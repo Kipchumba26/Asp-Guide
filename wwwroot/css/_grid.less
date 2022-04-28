@@ -1,0 +1,52 @@
+@import './_variables';
+@import './_colors';
+
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.row-wrapped {
+    .row;
+    flex-wrap: wrap;
+}
+.row-reverse {
+    .row;
+    flex-direction: row-reverse;
+}
+
+
+.column {
+    display: flex;
+    flex-direction: column
+}
+.column-reverse {
+    .column;
+    flex-direction: column-reverse;
+}
+
+.ma-center {
+    justify-content: center;
+}
+.ma-around {
+    justify-content: space-around;
+}
+.ma-btn {
+    justify-content: space-between;
+}
+.ma-even {
+    justify-content: space-evenly;
+}
+
+.ca-center {
+    align-items: center;
+}
+.ca-around {
+    align-items: space-around;
+}
+.ca-btn {
+    align-items: space-between;
+}
+.ca-even {
+    align-items: space-evenly;
+}

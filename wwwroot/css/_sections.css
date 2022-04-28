@@ -1,0 +1,50 @@
+.black-bg {
+  background-color: #1e1e1e;
+  color: white;
+}
+.gradiented {
+  background-image: linear-gradient(30deg, brown, purple);
+}
+.padded {
+  padding: 0 4rem;
+}
+.width_100 {
+  width: 100%;
+}
+.section {
+  min-height: 100vh;
+}
+.spacer_05 {
+  margin-top: 0.5rem;
+}
+.spacer_1 {
+  margin-top: 1rem;
+}
+.spacer_2 {
+  margin-top: 2rem;
+}
+.spacer_3 {
+  margin-top: 3rem;
+}
+.spacer_4 {
+  margin-top: 4rem;
+}
+.spacer_5 {
+  margin-top: 5rem;
+}
+.booking-section-title-container {
+  padding: 1rem;
+}
+@media screen and (min-width: 720px) {
+  .booking-section-form {
+    display: flex;
+  }
+}
+.booking-section-form--details {
+  padding: 1.5rem 1rem;
+  flex: 5;
+}
+.booking-section-form--quantities {
+  padding: 1.5rem 1rem;
+  flex: 3;
+}

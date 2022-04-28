@@ -1,0 +1,54 @@
+.black-bg {
+  background-color: #1e1e1e;
+  color: white;
+}
+.gradiented {
+  background-image: linear-gradient(30deg, brown, purple);
+}
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.row-wrapped {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-wrap: wrap;
+}
+.row-reverse {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row-reverse;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.column-reverse {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column-reverse;
+}
+.ma-center {
+  justify-content: center;
+}
+.ma-around {
+  justify-content: space-around;
+}
+.ma-btn {
+  justify-content: space-between;
+}
+.ma-even {
+  justify-content: space-evenly;
+}
+.ca-center {
+  align-items: center;
+}
+.ca-around {
+  align-items: space-around;
+}
+.ca-btn {
+  align-items: space-between;
+}
+.ca-even {
+  align-items: space-evenly;
+}
