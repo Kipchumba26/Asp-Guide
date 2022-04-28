@@ -7,8 +7,8 @@
 - [Installation](#install)
 - [Create](#Create Project)
 - [Routing](#Routing)
-- [Routes/Actions](#Add Route/Action)
-- [View](#Add View)
+- [Routes/Actions](#Route/Action)
+- [Views](#Views)
 - [Model](#Add Model)
 
 
@@ -61,10 +61,10 @@ be JSON, html, xml or any accepted format.
 Here is a simple example
 
 ```
-        public ActionResult About()
-        {
-            return View();
-        }
+public ActionResult About()
+{
+   return View();
+}
 ```
 
 ActionResult here indicates the return type JSON, html, xml. 
@@ -78,3 +78,15 @@ action.
 
 If About is in HomeController.cs, the html file is searched in Home folder and has to
 be named About.cshtml or About.html or About.aspx.
+
+
+## Views
+A view is anything that is returned by a controller action and is an accepted 'Content Type'
+i.e JSON, html, xml etc. 
+There are 2 types of Views, Regular views used directly from actions and partials/components
+used in other views. 
+
+
+If About is an action in HomeController.cs, the view file is searched in Views/Home folder 
+and has to be named the same as the action i.e About.cshtml or About.html or About.aspx.
+
