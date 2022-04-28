@@ -9,7 +9,8 @@
 - [Routing](#Routing)
 - [Routes/Actions](#Route/Action)
 - [Views](#Views)
-- [Model](#Add Model)
+- [View Helpers](#ViewHelpers)
+- [Models](#Models)
 
 
 
@@ -90,3 +91,23 @@ used in other views.
 If About is an action in HomeController.cs, the view file is searched in Views/Home folder 
 and has to be named the same as the action i.e About.cshtml or About.html or About.aspx.
 
+
+
+## Models
+A model is simply a class which contains properties of an entity. It can additionally
+contain data persistence logic like caching data, saving or interfacing with a database, 
+files etc.
+Its purpose is to facilitate reusability when working with entities. 
+Below is a simplr example
+
+```
+public class Student
+{
+    public int StudentId { get; set; }
+    public string StudentName { get; set;  }
+    public int Age { get; set;  }
+}
+```
+
+
+## View Helpers
