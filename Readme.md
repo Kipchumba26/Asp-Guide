@@ -55,3 +55,26 @@ This is how ASP.NET MVC does its routing.
 
 
 ## Routes/Actions
+An action acts as part of a url, in the case of Home/About, About is an action. It is
+also a function that can have code that acts on data and returns a view. This view can
+be JSON, html, xml or any accepted format.
+Here is a simple example
+
+```
+        public ActionResult About()
+        {
+            return View();
+        }
+```
+
+ActionResult here indicates the return type JSON, html, xml. 
+
+```
+return View();
+```
+Above line indicates that an html view is being returned. ASP searches for a view with
+same name as the action/function in a folder named as the controller that contains the
+action.
+
+If About is in HomeController.cs, the html file is searched in Home folder and has to
+be named About.cshtml or About.html or About.aspx.
