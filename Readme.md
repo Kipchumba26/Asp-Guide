@@ -103,8 +103,8 @@ Below is a simplr example
 ```
 public class Student
 {
-    public int StudentId { get; set; }
-    public string StudentName { get; set;  }
+    public int Id { get; set; }
+    public string Name { get; set;  }
     public int Age { get; set;  }
 }
 ```
